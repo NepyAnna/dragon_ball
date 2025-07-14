@@ -34,7 +34,9 @@ Installation
     * *.html — The main HTML files for both planets and characters pages.
     * js/*.js — JavaScript files for fetching and displaying characters.
     * styles/*.css — CSS files for styling the pages and cards.
+
 How to run in Docker
+-------------------------------------------------------------------------
 1. **Build the Docker image:**
 ```bash
 docker build -t dragon-image .
@@ -46,7 +48,7 @@ docker run -d -p 8081:80 --name dragon-container dragon-image
 4. **Open the project in a browser:**
    Go to http://localhost:8081
 
-How to Run the Project
+How to Run the Project from IDE
 -------------------------------------------------------------------------
 1. Install the Live Server extension in VS Code.
 2. Open the index.html file.

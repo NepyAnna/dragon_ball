@@ -48,6 +48,20 @@ docker run -d -p 8081:80 --name dragon-container dragon-image
 4. **Open the project in a browser:**
    Go to http://localhost:8081
 
+How to pull from DockerHub
+-------------------------------------------------------------------------
+If you prefer, you can pull the image directly from DockerHub without building it:
+
+**Pull image from DockerHub:**
+```bash
+docker pull sheoanna/dragon-image
+```
+**Run the container:**
+
+```bash
+docker run -d -p 8081:80 --name dragon-container sheoanna/dragon-image
+```
+
 How to Run the Project from IDE
 -------------------------------------------------------------------------
 1. Install the Live Server extension in VS Code.
